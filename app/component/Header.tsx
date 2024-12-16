@@ -1,12 +1,11 @@
 import Link from "next/link"
-import Image from "next/image"
 export default function Header() {
   return (
     <div>
 
       <div className="hidden lg:block">
         <div className="flex justify-between items-center bg-[#F5F5F5]">
-          <Image src="/jordanlogo.png" alt="jordanlogo" width={24} height={24}/>
+          <img src="/jordanlogo.png" alt="jordanlogo"/>
           <ul className="flex space-x-6 py-3">
             <li className="flex items-center border-r border-black pr-6">
               <Link href="#" className="leading-[14px]">Find a store
@@ -26,7 +25,7 @@ export default function Header() {
         </div>
       </div>
       <div className="flex justify-between items-center bg-[#ffffff] px-10 py-4">
-        <Image src="/nikelogo.png" alt="nike logo" width={24} height={24} />
+        <img src="/nikelogo.png" alt="nike logo"  />
         <ul className="flex space-x-6">
           <li>
             <Link href="#">New & Featured</Link>
@@ -49,7 +48,7 @@ export default function Header() {
         </ul>
         <div className="flex space-x-6 ">
           <div className="flex px-4 py-3 rounded-full w-[64%] bg-light-gray">
-            <Image src="/searchicon.png" alt="search icon" width={24} height={24} />
+            <img src="/searchicon.png" alt="search icon" />
             <input
               className="pl-4 focus-visible:outline-none w-[64%] bg-light-gray"
               type="text"
@@ -57,7 +56,7 @@ export default function Header() {
             />
           </div>
           <Link href="/Cart">
-          <Image src="/heart.png" alt="heart logo" width={24} height={24}/></Link>
+          <img src="/heart.png" alt="heart logo" /></Link>
         </div>
 
       </div>

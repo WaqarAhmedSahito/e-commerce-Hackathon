@@ -162,7 +162,6 @@ export default function Checkout() {
                     <div className="flex justify-between items-center">
                         {/* Location */}
                         <div className="text-xs">India</div>
-                        {/* Footer Links */}
                         <div className="flex space-x-4 text-xs">
                             <a href="#" className="hover:underline">© 2023 Nike, Inc. All Rights Reserved</a>
                             <a href="#" className="hover:underline">Terms of Use</a>

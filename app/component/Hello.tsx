@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+
 export default function Hello(){
     return(
         <div className=" justify-between items-center">
@@ -9,7 +9,7 @@ export default function Hello(){
                 </p>
             </div>
             <div className="flex items-center flex-col bg-light-gray  px-10 md:px-0">
-            <Image src="/big shoe.png" alt="big shoe" width={24} height={24} />
+            <img src="/big shoe.png" alt="big shoe"  />
             </div>
         </div>
     )

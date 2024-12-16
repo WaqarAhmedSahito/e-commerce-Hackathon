@@ -1,12 +1,11 @@
 import Link from "next/link"
 import Button from "./Button"
-import Image from "next/image"
 export default function Lastly() {
     return (
         <div>
             <h1 className=" text-2xl font-bold pb-6">Don&apos;t Miss</h1>
             <div className="flex items-center justify-between flex-col bg-light-gray py-2 px-10 md:px-0">
-                <Image src="/Model.png" alt="run" />
+                <img src="/Model.png" alt="run" />
                 <h1 className="text-6xl uppercase text-center font-bold pt-12">flight essentials</h1>
                 <p className="py-10"> Your built-to-last, all-week wears—but with style only Jordan Brand can deliver.
                 </p>
@@ -14,9 +13,9 @@ export default function Lastly() {
             </div>
             <h1 className=" text-2xl font-bold pb-6">The Essentials</h1>
             <div className="flex justify-center bg-light-gray py-2 px-10 md:px-0">
-                <Image src="/menL.png" alt="run" />
-                <Image src="/womanL.png" alt="run" />
-                <Image src="/KidsL.png" alt="run" />
+                <img src="/menL.png" alt="run" />
+                <img src="/womanL.png" alt="run" />
+                <img src="/KidsL.png" alt="run" />
             </div>
             <section className="py-16 px-10">
                 <div className="max-w-screen-xl mx-auto px-4">
