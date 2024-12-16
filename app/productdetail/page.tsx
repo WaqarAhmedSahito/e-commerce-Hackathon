@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 import Header from "../component/Header";
 import Footer from "../component/Footer";
@@ -16,7 +15,7 @@ export default function ProductDetail() {
         <div className="flex flex-col lg:flex-row items-center justify-center max-w-6xl mx-auto p-6 gap-8">
       <div className="flex-1">
         <div className="border-none border-gray-200 rounded-md p-4">
-          <Image
+          <img
             src={image}
             alt={name}
             className="object-cover w-full rounded-md"
