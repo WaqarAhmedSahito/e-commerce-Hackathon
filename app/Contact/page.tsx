@@ -74,8 +74,8 @@ export default function page() {
                 <div className="mb-6">
                     <p className="mb-2">Was this answer helpful?</p>
                     <div className="flex space-x-2">
-                        <Image src="/thumbsup.png" alt="Thumbs Up" className="w-6 h-6 cursor-pointer"/>
-                        <Image src="/thumbsdown.png" alt="Thumbs Down" className="w-6 h-6 cursor-pointer"/>
+                        <img src="/thumbsup.png" alt="Thumbs Up" className="w-6 h-6 cursor-pointer"/>
+                        <img src="/thumbsdown.png" alt="Thumbs Down" className="w-6 h-6 cursor-pointer"/>
                     </div>
                 </div>
                 <h4 className="text-lg font-bold mt-8 mb-4 text-text-secondary-gray">RELATED</h4>
@@ -96,23 +96,23 @@ export default function page() {
             <div className="col-span-12 lg:col-span-3 pt-10 lg:pt-0 space-y-14 px-10 border-l-2">
                 <h2 className="uppercase font-bold text-2xl text-center">Contact Us</h2>
                 <div className="flex flex-col items-center space-y-2 text-center">
-                   <Image src="/phoneicon.png" alt="Phone" width={60}/>
+                   <img src="/phoneicon.png" alt="Phone" width={60}/>
                     <p className="font-semibold">000 800 919 0566</p>
                     <p>Products & Orders: 24 hours a day, 7 days a week</p>
                     <p>Company Info & Enquiries: 07:30 - 16:30, Monday - Friday</p>
                 </div>
                 <div className="flex flex-col items-center space-y-2 text-center">
-                    <Image src="/messageicon.png" alt="Phone" width={60}/>
+                    <img src="/messageicon.png" alt="Phone" width={60}/>
                     <p>24 hours a day</p>
                     <p>7 days a week</p>
                 </div>
                 <div className="flex flex-col items-center space-y-2 text-center">
-                    <Image src="/emailicon.png" alt="Phone" width={60}/>
+                    <img src="/emailicon.png" alt="Phone" width={60}/>
                     <p>We&apos;ll reply within</p>
                     <p>five business days</p>
                 </div> 
                 <div className="flex flex-col items-center space-y-2 text-center">
-                    <Image src="/locicon.png" alt="Phone" width={60}/>
+                    <img src="/locicon.png" alt="Phone" width={60}/>
                     <p className="font-semibold">STORE LOCATOR</p>
                     <p>Find Nike retail stores near you</p>
                 </div>

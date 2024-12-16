@@ -42,7 +42,7 @@ export default function Checkout() {
                         <a href="#" className=" underline">Learn More</a>
                     </p>
                     <button className="flex items-center justify-start border border-black rounded-md p-6 w-full hover:bg-gray-100 transition">
-                        <Image src="/deliver.png" alt="Delivery Icon" className="w-6 h-6 mr-4" />
+                        <img src="/deliver.png" alt="Delivery Icon" className="w-6 h-6 mr-4" />
                         <span className="font-medium text-gray-700">Deliver It</span>
                     </button>
                     <main>
@@ -170,17 +170,17 @@ export default function Checkout() {
                         </div>
                         {/* Payment Icons */}
                         <div className="flex space-x-4">
-                            <Image src="/visa-icon.png" alt="Visa" className="w-6 h-6" />
-                            <Image src="/mastercard-logo.png" alt="Mastercard" className="w-6 h-6" />
-                            <Image src="/paypal-icon.png" alt="Paypal" className="w-6 h-6" />
-                            <Image src="/maestro-icon.png" alt="Discover" className="w-6 h-6" />
-                            <Image src="/americanexpress-icon.png" alt="Discover" className="w-6 h-6" />
-                            <Image src="/dinersclub-logo.png" alt="Discover" className="w-6 h-6" />
-                            <Image src="/discover-logo.png" alt="Discover" className="w-6 h-6" />
-                            <Image src="/bank-logo.png" alt="Bank" className="w-6 h-6" />
-                            <Image src="/paytm-logo.png" alt="Paytm" className="w-6 h-6" />
-                            <Image src="/upi-logo.png" alt="UPI" className="w-6 h-6" />
-                            <Image src="/jcb-logo.png" alt="UPI" className="w-6 h-6" />
+                            <img src="/visa-icon.png" alt="Visa" className="w-6 h-6" />
+                            <img src="/mastercard-logo.png" alt="Mastercard" className="w-6 h-6" />
+                            <img src="/paypal-icon.png" alt="Paypal" className="w-6 h-6" />
+                            <img src="/maestro-icon.png" alt="Discover" className="w-6 h-6" />
+                            <img src="/americanexpress-icon.png" alt="Discover" className="w-6 h-6" />
+                            <img src="/dinersclub-logo.png" alt="Discover" className="w-6 h-6" />
+                            <img src="/discover-logo.png" alt="Discover" className="w-6 h-6" />
+                            <img src="/bank-logo.png" alt="Bank" className="w-6 h-6" />
+                            <img src="/paytm-logo.png" alt="Paytm" className="w-6 h-6" />
+                            <img src="/upi-logo.png" alt="UPI" className="w-6 h-6" />
+                            <img src="/jcb-logo.png" alt="UPI" className="w-6 h-6" />
                         </div>
                     </div>
                 </div>

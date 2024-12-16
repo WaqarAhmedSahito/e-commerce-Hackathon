@@ -4,11 +4,11 @@ import Header from "../component/Header";
 import Footer from "../component/Footer";
 export default function ProductDetail() {
     const searchParams = useSearchParams();
-    const image = searchParams.get("image");
+    const img = searchParams.get("img");
     const name = searchParams.get("name");
     const price = searchParams.get("price");
     const category = searchParams.get("category");
-    if (!image || !name || !price) return <p>Loading...</p>; // Handle missing data
+    if (!img || !name || !price) return <p>Loading...</p>; // Handle missing data
     return (
         <div>
             <Header/>
@@ -16,7 +16,7 @@ export default function ProductDetail() {
       <div className="flex-1">
         <div className="border-none border-gray-200 rounded-md p-4">
           <img
-            src={image}
+            src={img}
             alt={name}
             className="object-cover w-full rounded-md"
           />
