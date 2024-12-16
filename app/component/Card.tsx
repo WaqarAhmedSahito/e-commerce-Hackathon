@@ -1,6 +1,5 @@
 "use client"; // Marks this file as a Client Component
-import { useRef } from "react";
-
+import Image from "next/image";
 interface CardProps {
   image: string;
   name: string;
@@ -8,18 +7,7 @@ interface CardProps {
   category?: string; // Optional category for the product
   onClick?: () => void; // Optional click handler
 }
-
 export default function Card({ image, name, price, category, onClick }: CardProps) {
-    const scrollContainerRef = useRef<HTMLDivElement>(null);
-    const scroll = (direction: "left" | "right") => {
-        if (scrollContainerRef.current) {
-          const scrollAmount = 300;
-          scrollContainerRef.current.scrollBy({
-            left: direction === "left" ? -scrollAmount : scrollAmount,
-            behavior: "smooth",
-          });
-        }
-      };
   return (
     <div 
     className="flex space-x-4 overflow-x-auto scroll-smooth no-scrollbar"
@@ -29,8 +17,7 @@ export default function Card({ image, name, price, category, onClick }: CardProp
       onClick={onClick} // Now supported as a Client Component
     >
       {/* Card Image */}
-     
-        <img
+        <Image
           src={image}
           alt={name}
           className="object-cover w-[350px] h-[300px] rounded-md"

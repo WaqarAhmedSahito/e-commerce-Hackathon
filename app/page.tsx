@@ -6,9 +6,7 @@ import Featured from "./component/Featured";
 import Shoe from "./component/Shoe";
 import Lastly from "./component/Lastly";
 import Footer from "./component/Footer";
-
 export default function Home() {
-  
   return (
     <div>
       <Header />

@@ -9,8 +9,7 @@ export default function Flook() {
                 <p className="w-full md:w-1/2 text-center py-6">
                     Extreme comfort. Hyper durable. Max volume. Introducing the Air Max
                     Pulse —designed to push you past your limits and help you go to the
-                    max.
-                </p>
+                    max.</p>
                 <div className="flex space-x-2">
                <Button text="Notify Me" classNames="rounded-full py-2"/>
                <Link href="/products">

@@ -22,7 +22,7 @@ export default function Cart(){
                     <div className="mt-4 mb-10 ">
                         <h2 className="font-semibold text-xl">Bag</h2>
                         <div className="md:flex md:space-x-10 mx-20 md:mx-0 mt-6">
-                            <img src={"/product/product-1.png"} alt="shoe" width={200} height={200}/>
+                            <Image src={"/product/product-1.png"} alt="shoe" width={200} height={200}/>
                             <div className="space-y-8">
                                 <div className="md:flex justify-between font-semibold text-[12px] md:text-md md:gap-x-24"> 
                                     <h1>Nike Dri-FIT ADV TechKnit Ultra</h1>
@@ -34,7 +34,7 @@ export default function Cart(){
                                 <h2 className="text-sm text-[#757575] ">Size : L<span className="ml-6">Qantity: 1</span></h2>
                                 </div>
                                 <div className="flex gap-4 ">
-                                        <img src={"/heart-1.png"} alt={"heart"} width={20} height={10}/>
+                                        <Image src={"/heart-1.png"} alt={"heart"} width={20} height={10}/>
                                     <Image src={"/delete.png"} alt={"delete"} width={18} height={10}/>
                                 </div>
                                 
@@ -42,7 +42,7 @@ export default function Cart(){
                         </div>
                         <hr className="my-6"/>
                         <div className="md:flex md:space-x-10 mx-20 md:mx-0  mt-6">
-                        <img src="/product/product-7.png" alt={"shoe"} width={200} height={200}/>
+                        <Image src="/product/product-7.png" alt={"shoe"} width={200} height={200}/>
                             <div className="space-y-8">
                                 <div className="md:flex justify-between font-semibold text-[12px] md:text-md md:gap-x-20"> 
                                     <h1>Nike Air Max 97 SE</h1>
@@ -54,7 +54,7 @@ export default function Cart(){
                                 <h2 className="text-sm text-[#757575] ">Size : M<span className="ml-6">Qantity: 8   </span></h2>
                                 </div>
                                 <div className="flex gap-4 ">
-                                        <img src="/heart-1.png" alt={"heart"} width={20} height={10}/>
+                                        <Image src="/heart-1.png" alt={"heart"} width={20} height={10}/>
                                     <Image src={"/delete.png"} alt={"delete"} width={18} height={10}/>
                                 </div>
                                 

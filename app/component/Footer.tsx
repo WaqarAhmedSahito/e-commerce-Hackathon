@@ -1,13 +1,11 @@
-import Link from 'next/link';
-import Image from 'next/image';
-import React from 'react';
+import Link from "next/link";
+import Image from "next/image";
+import React from "react";
 
 const Footer = () => {
   return (
     <footer className="px-6 lg:px-10 bg-black text-white">
-      {/* Top Section */}
       <div className="grid grid-cols-12 py-14 gap-8">
-        {/* Links Section */}
         <div className="col-span-12 lg:col-span-6 grid grid-cols-1 md:grid-cols-3 gap-8">
           <ul className="space-y-4">
             <li className="whitespace-nowrap"><Link className="text-white uppercase hover:text-gray-400 transition" href="#">Become a Member</Link></li>
@@ -34,8 +32,6 @@ const Footer = () => {
             <li className="whitespace-nowrap"><Link className="text-gray-400 uppercase hover:text-gray-200 transition" href="#">Sustainability</Link></li>
           </ul>
         </div>
-
-        {/* Social Media Section */}
         <div className="col-span-12 lg:col-span-6 flex flex-col items-center lg:items-end">
           <ul className="flex space-x-6">
             <li>
@@ -85,8 +81,6 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-
-      {/* Bottom Section */}
       <div className="grid grid-cols-12 py-6 gap-4 border-t border-gray-700">
         <div className="col-span-12 lg:col-span-6 flex items-center space-x-4">
           <Image src="/Loc.png" alt="Location icon" width={20} height={20} />
@@ -103,5 +97,4 @@ const Footer = () => {
     </footer>
   );
 };
-
 export default Footer;

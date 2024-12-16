@@ -1,22 +1,22 @@
 import Link from "next/link"
 import Button from "./Button"
+import Image from "next/image"
 export default function Lastly() {
     return (
-        <div className="">
-            <h1 className=" text-2xl font-bold pb-6">Don't Miss</h1>
+        <div>
+            <h1 className=" text-2xl font-bold pb-6">Don&apos;t Miss</h1>
             <div className="flex items-center justify-between flex-col bg-light-gray py-2 px-10 md:px-0">
-                <img src="/Model.png" alt="run" />
+                <Image src="/Model.png" alt="run" />
                 <h1 className="text-6xl uppercase text-center font-bold pt-12">flight essentials</h1>
                 <p className="py-10"> Your built-to-last, all-week wears—but with style only Jordan Brand can deliver.
                 </p>
                 <Button text="Shop" classNames="rounded-full py-2" />
-
             </div>
             <h1 className=" text-2xl font-bold pb-6">The Essentials</h1>
             <div className="flex justify-center bg-light-gray py-2 px-10 md:px-0">
-                <img src="/menL.png" alt="run" />
-                <img src="/womanL.png" alt="run" />
-                <img src="/KidsL.png" alt="run" />
+                <Image src="/menL.png" alt="run" />
+                <Image src="/womanL.png" alt="run" />
+                <Image src="/KidsL.png" alt="run" />
             </div>
             <section className="py-16 px-10">
                 <div className="max-w-screen-xl mx-auto px-4">
@@ -31,8 +31,6 @@ export default function Lastly() {
                                 <li><Link href="#" className="text-text-primary-gray">Air Max 95</Link></li>
                             </ul>
                         </div>
-
-                        {/* Shoes */}
                         <div>
                             <h3 className="text-lg font-semibold mb-4">Shoes</h3>
                             <ul className="space-y-2">
@@ -42,8 +40,6 @@ export default function Lastly() {
                                 <li><Link href="#" className="text-text-primary-gray">Running Shoes</Link></li>
                             </ul>
                         </div>
-
-                        {/* Clothing */}
                         <div>
                             <h3 className="text-lg font-semibold mb-4">Clothing</h3>
                             <ul className="space-y-2">
@@ -53,15 +49,13 @@ export default function Lastly() {
                                 <li><Link href="#" className="text-text-primary-gray">Shirts & Tops</Link></li>
                             </ul>
                         </div>
-
-                        {/* Kids */}
                         <div>
-                            <h3 className="text-lg font-semibold mb-4">Kids'</h3>
+                            <h3 className="text-lg font-semibold mb-4">Kids&apos;</h3>
                             <ul className="space-y-2">
                                 <li><Link href="#" className="text-text-primary-gray">Infant & Toddler Shoes</Link></li>
-                                <li><Link href="#" className="text-text-primary-gray">Kids' Shoes</Link></li>
-                                <li><Link href="#" className="text-text-primary-gray">Kids' Jordan Shoes</Link></li>
-                                <li><Link href="#" className="text-text-primary-gray">Kids' Basketball Shoes</Link></li>
+                                <li><Link href="#" className="text-text-primary-gray">Kids&apos; Shoes</Link></li>
+                                <li><Link href="#" className="text-text-primary-gray">Kids&apos; Jordan Shoes</Link></li>
+                                <li><Link href="#" className="text-text-primary-gray">Kids&apos; Basketball Shoes</Link></li>
                             </ul>
                         </div>
                     </div>
