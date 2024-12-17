@@ -1,16 +1,17 @@
 "use client";
 import { useSearchParams } from "next/navigation";
+import React, { Suspense } from 'react';
 import Header from "../component/Header";
 import Footer from "../component/Footer";
-export default function ProductDetail() {
-    const searchParams = useSearchParams();
-    const img = searchParams.get("img");
+ function ProductDetailContent() {
+  const searchParams = useSearchParams();
+     const img = searchParams.get("img");
     const name = searchParams.get("name");
     const price = searchParams.get("price");
     const category = searchParams.get("category");
-    if (!img || !name || !price) return <p>Loading...</p>; // Handle missing data
-    return (
-        <div>
+    if (!img || !name || !price) return <p>Loading...</p>; 
+    return ( 
+     <div>
             <Header/>
         <div className="flex flex-col lg:flex-row items-center justify-center max-w-6xl mx-auto p-6 gap-8">
       <div className="flex-1">
@@ -38,5 +39,13 @@ export default function ProductDetail() {
     </div>
     <Footer/>
     </div>
+  
     );
+}
+export default function ProductDetail() {
+  return (
+    <Suspense fallback={<p>Loading Product Details...</p>}>
+      <ProductDetailContent />
+    </Suspense>
+  );
 }
