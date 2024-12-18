@@ -44,14 +44,14 @@ export default function Shoe() {
                         pathname: "/productdetail", // Navigate to product detail page
                         query: {
                             img: "/product/product-1.png",
-                            name: "Nike Air Force 1 Mid&apos;07&apos;",
+                            name: "Nike Air Force 1 Mid 07",
                             price: "₹ 10,795.00",
                             category: "Men&apos;s Shoes",
                         },
                     }}>
                     <Card
                         img="/product/product-1.png"
-                        name="Nike Air Force 1 Mid&apos;07&apos;"
+                        name="Nike Air Force 1 Mid &apos;07&apos;"
                         price="₹ 10,795.00"
                         category="Men&apos;s Shoes"
                     />

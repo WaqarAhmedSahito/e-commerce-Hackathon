@@ -13,18 +13,18 @@ import Footer from "../component/Footer";
     return ( 
      <div>
             <Header/>
-        <div className="flex flex-col lg:flex-row items-center justify-center max-w-6xl mx-auto p-6 gap-8">
+        <div className="flex flex-col lg:flex-row items-center justify-center max-w-6xl mx-auto p-7 gap-8">
       <div className="flex-1">
         <div className="border-none border-gray-200 rounded-md p-4">
           <img
             src={img}
             alt={name}
-            className="object-cover w-full rounded-md"
+            className="w-[653px] h-[453px] top-[110px] rounded-md"
           />
         </div>
       </div>
       <div className="flex-1">
-        <h2 className="text-3xl font-extrabold text-gray-800 mb-4">{name}</h2>
+        <h2 className="text-6xl font-semibold text-gray-800 mb-4">{name}</h2>
         <p>Step into elevated style with this reimagined take on a classic Nike silhouette. Featuring a bold yet refined design, its unique construction blends modern craftsmanship with timeless appeal. Thoughtfully layered materials, exposed stitching, and subtle textural contrasts create a striking balance of edge and elegance. Deliberate accents, from the precision-cut overlays to the finely detailed midsole, give it a handcrafted look that stands out effortlessly. Whether you&apos;re on the streets or making a statement elsewhere, this shoe delivers unmatched versatility with a finish that feels both fresh and iconic.</p>
         <p className="text-gray-700 text-lg font-semibold mb-2"> {price}</p>
         {category && (
