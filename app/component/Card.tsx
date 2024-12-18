@@ -18,7 +18,7 @@ export default function Card({ img, name, price, category, onClick }: CardProps)
         <img
           src={img}
           alt={name}
-          className="object-cover w-[350px] h-[300px] rounded-md"
+          className="object-fill w-[350px] h-[300px] rounded-md"
         />
     <div className="flex space-x-2 justify-between items-center">
       {/* Card Details */}
